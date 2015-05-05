@@ -1,0 +1,14 @@
+To establish basic knowledge of git.  Please install the git software if you have not already.
+
+Pull the repository I have created at https://github.com/Chad-Raley-EPM/test
+Create a file, throw some text in there (Whatever you would like), and commit/push the changes back to the github repository.
+
+Steps to do the above are as follows:
+Navigate to freshly created directory that will house the repository (IE: mkdir test)
+Initialize the repository (IE: git init)
+Pull the changes from the url mentioned above (IE: git pull https://github.com/Chad-Raley-EPM/test)
+Make your changes, you can use whatever editor/utility you wish.
+View that you have indeed made modifications (IE: git status)
+Add your changes to a new version (IE: git add <filename(s)>)
+Commit your changes to the local repository (IE: git commit -m "this is my commit comment"). If you do not use the -m flag to add a commit comment, it will take you into a vi instance to create your comment.  There might be some other information you need to fill out and the git software will give you steps for this process (It will ask you who you are and what your email address is).
+Now that you've committed locally you must push your changes to the remote repository (IE: git push https://github.com/Chad-Raley-EPM/test master) .  The section that follows the URL ("master") is the branch.??
